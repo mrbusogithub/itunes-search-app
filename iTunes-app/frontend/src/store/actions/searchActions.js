@@ -5,7 +5,7 @@ export const searchMusic = (term, mediaType) => async (dispatch) => {
   try {
     // Make an asynchronous request to the music search API
     const response = await axios.get(
-      `https://itunes-search-music.onrender.com/api/search/music`,
+      `https://itunes-search-music-backend.onrender.com/api/search/music`,
       {
         params: { term, mediaType },
         headers: { Authorization: "" },
