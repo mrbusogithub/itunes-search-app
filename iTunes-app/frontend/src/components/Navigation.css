@@ -1,0 +1,35 @@
+
+
+.bg-myDark {
+    background-color: #4B4B4B;
+    z-index: 999;
+}
+
+.toggle {
+    align-content: end;
+    margin-left: 82%;
+   
+}
+
+.bg-myDark a {
+    text-decoration: none;
+    padding: 10px;
+    color: Black;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.bg-myDark a:hover {
+    cursor: pointer;
+    color: blanchedalmond;
+    text-decoration: dotted;
+    transition: 0.5;
+}
+
+.logo span {
+    font-weight: 500;
+    margin-left: -18px;
+}
+.logo {
+    margin-left: -20px;
+}
